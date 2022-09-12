@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Tech News</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <!-- Bootstrap JS -->
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- AOS -->
+  <link href="css/aos.css" rel="stylesheet">
+  <script src="js/aos.js"></script>
+  
+  <!-- OWL CAROUSEL -->	
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <script src="js/owl.carousel.min.js"></script>
+  
+  <!-- Ícones FontAwesome -->
+  <script src="https://kit.fontawesome.com/4553479d90.js"></script>
+  
+</head>
+<body>
+  <div>
+    <header class="header-bg">
+      <div class="page-config">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/index.html">
+            <img src="img/logo-cor.png" alt="logo colorida GT news" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-lista navbar-nav text-center text-md-left m-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tecnologia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="container__pesquisa form-inline">
+              <input class="barra-pesquisa form-control" type="search" placeholder="Pesquisar..." aria-label="Search">
+              <button class="btn__pesquisa-mobile btn btn btn-outline-secondary m-md-2 m-lg-auto" type="submit">Buscar</button>
+              <button class="btn__pesquisa-desktop btn" type="submit">
+                <img src="img/lupa.png" alt="ícone de lupa para o botão de buscar" class="img-fluid">
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="carousel-01">
+      <div id="carouselExampleIndicators" class="page-config carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="4000">
+            <div class="carousel__txt d-flex flex-wrap align-items-center col-5">
+              <div class="carousel-container">
+                <h2 id="textoCarousel01"></h2>
+                <a type="button" class="btn-carousel btn btn-primary" href="carrousel-01/main.html"><span>confira</span></a>
+              </div>
+            </div>
+            <div class="carousel-bg"></div>
+            <img src="img/carousel-01.png" class="d-block w-100" alt="imagem das duas versões do playstation 5, lado a lado">
+          </div>
+          <div class="carousel-item " data-interval="4000">
+            <div class="carousel__txt d-flex flex-wrap align-items-center col-5">
+              <div class="carousel-container">
+                <h2 id="textoCarousel02"></h2>
+                <a type="button" class="btn-carousel btn btn-primary" href="carrousel-02/main.html"><span>confira</span></a>
+              </div>
+            </div>
+            <div class="carousel-bg"></div>
+            <img src="img/carousel-02.png" class="d-block w-100" alt="imagem comparativa de vários smartphones lado a lado">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span aria-hidden="true">
+            <img src="img/preview-icon.png" alt="indicador do botão voltar do carrossel" class="btn-prev">
+          </span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span aria-hidden="true">
+            <img src="img/next-icon.png" alt="indicador do botão avançar do carrossel" class="btn-next">
+          </span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+    
+    <section class="plataformas">
+      <div class="page-config">
+        <div class="plataformas__txt d-flex flex-wrap justify-content-center text-center">
+          <h3>Escolha sua plataforma ou mergulhe<br>no mundo das notícias tech</h3>
+        </div>
+        <div class="plataformas-icones col-12">
+          <ul class="d-flex flex-wrap justify-content-around text-center">
+            <li>
+              <div class="plataforma-btn relative">
+                <a class="plataforma-box d-flex flex-wrap justify-content-center align-items-center" href="playstation-news/main.html">
+                  <img src="img/ps-icon.png" alt="botão para acessar notícias da sony playstation" class="w-50">
+                </a>
+              </div>
+              <p>Playstation</p>
+            </li>
+            <li>
+              <div class="plataforma-btn relative">
+                <a class="plataforma-box d-flex flex-wrap justify-content-center align-items-center" href="xbox-news/main.html">
+                  <img src="img/xbox-icon.png" alt="botão para acessar notícias da microsoft xbox" class="w-50">
+                </a>
+              </div>
+              <p>Xbox</p>
+            </li>
+            <li>
+              <div class="plataforma-btn relative">
+                <a class="plataforma-box d-flex flex-wrap justify-content-center align-items-center" href="pc-news/main.html">
+                  <img src="img/pc-icon.png" alt="botão para acessar notícias sobre computadores e seus periféricos" class="w-50">
+                </a>
+              </div>
+              <p>PC</p>
+            </li>
+            <li>
+              <div class="plataforma-btn relative">
+                <a class="plataforma-box d-flex flex-wrap justify-content-center align-items-center" href="nintendo-news/main.html">
+                  <img src="img/nintendo-icon.png" alt="botão para acessar notícias da nintendo" class="w-50">
+                </a>
+              </div>
+              <p>Nintendo</p>
+            </li>
+            <li>
+              <div class="plataforma-btn relative">
+                <a class="plataforma-box d-flex flex-wrap justify-content-center align-items-center" href="global-news/main.html">
+                  <img src="img/world-icon.png" alt="botão para acessar notícias variadas sobre tecnologia" class="w-50">
+                </a>
+              </div>
+              <p>Tech News</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cards page-config">
+        <div class="card__main">
+          <h2>Últimas notícias</h2>
+        </div>
+        <div class="card__group d-flex flex-wrap justify-content-center">
+          <div class="card-container col-md-6 relative p-0">
+            <div class="card__txt-top absolute">
+              <div class="card-tittle"></div>
+              <div class="card-info"></div>
+            </div>
+            <a class="btn__card-main btn btn-primary" href="card-01/main.html">
+              <span>confira</span>
+            </a>
+            <img src="img/smartphone-card.jpg" alt="imagem de uma mão segurando um smartphone com a tela desbloqueada" class="img-bg">
+          </div>
+          <div class="card__group-vertical col-md-6 d-flex flex-wrap">
+            <div class="card-container relative align-self-start">
+              <div class="card__txt-bottom absolute">
+                <div class="card-tittle"></div>
+                <div class="card-info"></div>
+              </div>
+              <a class="btn__card-second" href="card-02/main.html">
+                <img src="img/card-icon-btn.png" alt="ícone para levar para a notícia do card" class="img-fluid">
+              </a>
+              <img src="img/ps5-xbox-card.jpg" alt="imagem dos consoles xbox series x e playstation 5 lado a lado" class="img-bg">
+            </div>
+            <div class="card-container relative align-self-end">
+              <div class="card__txt-bottom absolute">
+                <div class="card-tittle"></div>
+                <div class="card-info"></div>
+              </div>
+              <a class="btn__card-second" href="card-03/main.html">
+                <img src="img/card-icon-btn.png" alt="ícone para levar para a notícia do card" class="img-fluid">
+              </a>
+              <img src="img/nvidia-card.jpg" alt="imagem de uma placa de vídeo verticalmente alinhada" class="img-bg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="newsletter d-flex flex-wrap text-center justify-content-center">
+        <div class="newsletter__txt col-12 col-md-8">
+          <h3>Que tal ficar sabendo das últimas notícias<br>antes de todo mundo?</h3>
+          <p>Então faça sua inscrição e receba nossa newsletter através do seu e-mail cadastrado.</p>
+        </div>
+        <div class="newsletter__form form-group col-8 col-lg-6">
+          <input type="email" class="email-container form-control" id="exampleInputEmail1" type="email" placeholder="Digite aqui seu e-mail..." aria-label="Email">
+          <button type="submit" class="btn__newsletter btn btn-primary">Quero saber das últimas notícias!</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container d-flex flex-wrap justify-content-center">
+        <ul class="footer__lista d-flex flex-column flex-lg-row justify-content-center justify-content-lg-around text-center col-12">
+          <li class="">
+            <a href="#">sobre nós</a>
+          </li>
+          <li class="">
+            <a href="#">contato</a>
+          </li>
+          <li class="">
+            <a href="#">política de privacidade</a>
+          </li>
+          <li class="">
+            <a href="#">conteúdo</a>
+          </li>
+          <li class="">
+            <a href="#">ajuda</a>
+          </li>
+          <li class="">
+            <a href="#">trabalhe conosco</a>
+          </li>
+        </ul>
+        <div class="footer-logo text-center col-12">
+          <img src="img/logo-bco.png" alt="logo branca GT News" class="img-fluid">
+        </div>
+        <div class="texto-legal text-center col-12 col-lg-6">
+          <p>© COPYRIGHT 2022. Todos direitos reservados a Game Tech News. O conteúdo do site não pode ser publicado, transmitido, reescrito ou redistribuído sem prévia autorização.</p>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();	
+  </script>
+</body>
+</html>

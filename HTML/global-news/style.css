@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+@import url('../fonts/stylesheet.css');
+
+body{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-config{
+  max-width: 1220px;
+  margin: 0px auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.img-bg {
+  height: auto;
+  width: 100%;
+}
+
+.logo__main{
+  background: linear-gradient(180deg, #444444 0%, #0A0A0A 100%);
+  padding: 30px 0;
+}
+
+.card__news-container{
+  padding: 10px;
+}
+
+.card__news{
+  background: #F4F4F4;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16);
+  margin: 20px 0;
+}
+
+.card__news h2{
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding: 10px 100px 20px 0px;
+}
+
+.card__news h3{
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+.card__news p{
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+
+.card__news:hover{
+  transition: all 0.5s;
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.card__news-circle{
+  background-color: #A359EC;
+  border-radius: 50%;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+}
+
+.card__news-logo{
+ width: 70%;
+}
+
+/*------------------------------------------------------------------
+---------------------------- RESPONSIVO ----------------------------
+--------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  .card__news-container{
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+}
+
+@media (min-width: 1920px) {
+
+}
