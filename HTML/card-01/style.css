@@ -1,31 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap');
 @import url('../fonts/stylesheet.css');
 
-body{
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.page-config{
-  max-width: 1220px;
-  margin: 0px auto;
-  overflow-x: hidden;
-  position: relative;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.img-bg {
-  height: auto;
-  width: 100%;
-}
-
 .card__page-img{
   padding: 50px 0;
 }
