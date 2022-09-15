@@ -63,7 +63,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../contato/main.html">Contato</a>
+                <a class="nav-link" href="./main.html">Contato</a>
               </li>
             </ul>
             <form class="container__pesquisa form-inline">
@@ -79,15 +79,51 @@
     </header>
     
     <section>
-      <div class="carrousel__page-img d-flex justify-content-center">
-        <img src="../img/carrousel-02-page.jpg" alt="" class="img-fluid">
+      <div class="page-tittle d-flex justify-content-center text-center">
+        <h2 class="col-12 col-lg-4">Contato</h2>
       </div>
-      <div class="carrousel__page-tittle d-flex justify-content-center text-center">
-        <h2 class="col-12 col-lg-4">confira quais os melhores smartphones de 2022</h2>
-      </div>
-      <div class="carrousel__container d-flex flex-wrap text-center justify-content-center page-config">
-        <h3 class="col-10 carrousel__page-sub"></h3>
-        <p class="col-10 carrousel__page-txt"></p>
+      <div class="contato-container d-flex flex-wrap justify-content-center align-items-center page-config">
+        <div class="contato-info col-12 col-xl-6">
+          <div class="contato__telefone text-center">
+            <div class="contato__telefone-titulo d-flex flex-wrap justify-content-center flex-column align-items-center">
+              <img src="../img/phone-icon.png" alt="ícone de telefone para contato" class="contato-icone img-fluid">
+              <h2>Gostaria de ligar para nós?</h2>
+            </div>
+            <p>+55 (41) 3333-3333 | +55 (41) 99999-9999</p>
+          </div>
+          <div class="contato__email text-center">
+            <div class="contato__email-titulo d-flex flex-wrap justify-content-center flex-column align-items-center">
+              <img src="../img/email-icon.png" alt="ícone de telefone para contato" class="contato-icone img-fluid">
+              <h2>E-mail...pode ser também, sem problemas!</h2>
+            </div>
+            <p>technews@contato.com.br</p>
+          </div>
+          <div class="contato__endereco text-center">
+            <div class="contato__endereco-titulo d-flex flex-wrap justify-content-center flex-column align-items-center">
+              <img src="../img/map-icon.png" alt="ícone de telefone para contato" class="contato-icone img-fluid">
+              <h2>E que tal vir tomar um café conosco?</h2>
+            </div>
+            <p>Avenida Cândido de Abreu, N° 1234<br>CEP: 82590-300, Curitiba-PR</p>
+          </div>
+        </div>
+        <div class="contato-form col-12 col-xl-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="py-2">Seu nome</label>
+              <textarea class="form-control" id="formulario__contato-nome" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="py-2">Endereço de e-mail</label>
+              <input type="text" class="form-control" id="formulario__contato-email" placeholder="email@exemplo.com.br" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Nós nunca vamos compartilhar seu e-mail</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="py-2">Sua mensagem</label>
+              <textarea class="form-control" id="formulario__contato-mensagem" rows="3" placeholder="Digite aqui sua mensagem para nós"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
       </div>
     </section>
     
@@ -114,7 +150,7 @@
     </footer>
     
   </div>
-  <script src="../js/carousel-02.js"></script>
+  <script src="../js/card-01.js"></script>
   <script>
     AOS.init();	
   </script>

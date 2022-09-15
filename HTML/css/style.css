@@ -386,6 +386,10 @@ footer{
   padding: 0px 120px 20px 120px;
 }
 
+.footer-logo img{
+  width: 5em;
+}
+
 .texto-legal{
   color: #FFF;
   font-size: 0.6em;
@@ -393,6 +397,19 @@ footer{
   padding-bottom: 20px;
 }
 
+.dropdown-menu{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 6.43%, rgba(68, 67, 67, 0.1375) 37.42%, rgba(156, 156, 156, 0.052) 72.57%);
+  background-color: #FFF;
+}
+
+.dropdown-menu .active{
+  background: linear-gradient(180deg, #444444 -26.33%, #0A0A0A 63.69%);
+}
+
+.dropdown-item:hover{
+  background: #747474;
+  color: #FFF;
+}
 
 /*------------------------------------------------------------------
 ---------------------------- RESPONSIVO ----------------------------
@@ -512,9 +529,6 @@ footer{
   .footer__lista {
     padding: 20px 130px;
   }
-  .footer-logo{
-    padding: 0px 460px 20px 460px;
-  }
 }
 
 @media (min-width: 1100px) {
@@ -529,9 +543,6 @@ footer{
   }
   .footer__lista {
     padding: 20px 180px;
-  }
-  .footer-logo{
-    padding: 0px 530px 20px 530px;
   }
 }
 
@@ -550,8 +561,5 @@ footer{
   }
   .footer__lista {
     padding: 20px 450px;
-  }
-  .footer-logo{
-    padding: 0px 900px 20px 900px;
   }
 }

@@ -42,6 +42,7 @@
 }
 
 .card__news-circle{
+  background-color: #A359EC;
   border-radius: 50%;
   height: 40px;
   right: 10px;
@@ -51,26 +52,6 @@
 
 .card__news-logo{
  width: 70%;
-}
-
-.ps-color{
-  background-color: #4370E4;
-}
-
-.xbox-color{
-  background-color: #6ECA27;
-}
-
-.pc-color{
-  background-color: #909090;
-}
-
-.nintendo-color{
-  background-color: #F13434;
-}
-
-.tech-color{
-  background-color: #A359EC;
 }
 
 /*------------------------------------------------------------------

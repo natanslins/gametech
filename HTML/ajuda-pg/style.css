@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+@import url('../fonts/stylesheet.css');
+
+.page-tittle{
+  background: linear-gradient(180deg, #444444 0%, #0A0A0A 100%);
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: 900;
+  line-height: 1.5em;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+.info__container{
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+.info__page-sub{
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.4em;
+  padding: 50px 0;
+}
+
+.info__page-txt{
+  color: #606060;
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+
+/*------------------------------------------------------------------
+---------------------------- RESPONSIVO ----------------------------
+--------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  .carrousel__page-tittle{
+    font-size: 1.8em;
+  }
+  .carrousel__page-sub{
+    font-size: 1.7em;
+  }
+  .card__lojas-shape{
+    margin: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .contato-icone{
+    max-width: 7%;
+  }
+  .contato-form{
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1100px) {
+
+}
+
+@media (min-width: 1920px) {
+
+}
